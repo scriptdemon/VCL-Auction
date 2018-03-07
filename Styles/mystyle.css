@@ -1,0 +1,55 @@
+@font-face{
+	font-family: "sport";
+    src: url("fonts/TrueType/SFSportsNight.ttf");
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#welcome_body{
+	background:linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url(cricket.jpg) no-repeat center center fixed;
+	background-color: rgba(0,0,0,1);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+
+#log_sign{
+	margin-top:2%;
+}
+
+#Log_button{
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+#Sign_button{
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.welcome_landing{
+	margin-top:5%;
+	color: white;
+} 
+
+.button-wrap
+{
+	width:200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#main_title{
+	font-size: 60px;
+	font-family:'sport';
+	margin-bottom:25px;
+}
+
+.warning{
+	color:white !important;
+}

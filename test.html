@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+	<link rel='stylesheet' type='text/css' href='Styles/mystyle.css'>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+	<script type='text/javascript' src='js/save_details.js'></script>
+
+	<title>AUCTION PAGE</title>
+</head>
+<body id='welcome_body'>
+<div class='row' style='margin-top:10%;color:white;'>
+	<div class='col-lg-6 col-lg-offset-3' style='background-color:rgba(0,0,0,0.5);height:auto;border-radius:10px;padding:10px;'>
+		<div class='col-lg-5' style='background-color:transparent;height:inherit;'></div>
+		<div class='col-lg-6 col-lg-offset-1' style='background-color:transparent;height:inherit;'>
+			<h3>Name:$name</h3>
+			<h3>Class:$year</h3>
+			<h3>Role:$position</h3>
+			<form class='form-inline' method='GET' action='result.php'>
+			  <div class='form-group'>
+			    <label for='#team_name'><h3>Team:</h3></label>
+			    <select name='team' class='form-control'>
+								<option></option>
+								<option>TEAM 1</option>
+								<option>TEAM 2</option>
+								<option>TEAM 3</option>
+								<option>TEAM 4</option>
+								<option>TEAM 5</option>
+								<option>TEAM 6</option>
+				</select>
+			  </div>
+
+			  <div class='form-group'>
+			    <label for='#price_val'><h3>Price:</h3></label>
+			    <input type='text' class='form-control' name='price' id='price_val' placeholder='Enter price'>
+			    <input type='submit' class='btn btn-success' name='price' id='sold_btn' value='SOLD' style='font-size:20px;'>
+			  </div>
+
+			  <br><br><button class='btn btn-danger' style='text-align:center;margin-left:120px;font-size:20px;' onclick='window.close()'>UNSOLD</button>
+
+			</form>
+		</div>
+	</div>
+</div>
+
+<script type='text/javascript' src='js/bootstrap.min.js'></script>
+</body>
+</html>
